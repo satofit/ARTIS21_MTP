@@ -1,0 +1,313 @@
+/* Eléments principaux de la page */
+
+body {
+   background: url('fond_nuage.jpg');
+   background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #181818;
+}
+
+
+/* Logo*/
+.photo{
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 10px #777;
+    border-radius: 50%;
+    margin: auto;
+}
+
+/*Titre*/
+header h1 {
+    font-family: serif;
+    font-size: 25px;
+    font-weight: normal;
+    margin: auto ;
+    color: pink ;
+}
+
+
+/* Barre de navigation */
+/* section h1, footer h1 */ 
+.navigation {
+    float: right;
+    margin: 30px ;
+}
+
+nav a {
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style-type: none ;
+    display: flex;
+}
+
+nav li {
+    margin-right: 16px;
+}
+
+nav a {
+    font-size: 25px;
+    color: #2a2b31; 2px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: grey;
+    border-bottom: 2px solid pink;
+}
+
+/* CONTACTEZ MOI */
+
+.tag {
+  background-color: pink;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+  opacity: 0.7;
+} 
+
+
+/* Formulaire de contact */
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: #bbb5af;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: #bbb5af;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea::focus:placeholder {
+  color: #bbb5af;
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  color: #bbb5af;
+}
+
+/* Interaction des cases */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+  color: #cbc6c1;
+}
+
+body {
+  font-family: serif;
+}
+
+
+#form {
+  position: right;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+input {
+  font-family: serif;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  
+  background: transparent;
+  outline: none;
+  color: #726659;
+  
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  
+  background: transparent;
+  outline: none;
+  
+  color: #726659;
+  font-family: serif;
+  font-size: 0.875em;
+  
+  border: solid 1px #b3aca7;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea: hover {
+  background: #b3aca7;
+  color: #e2dedb;
+}
+
+#submit {
+  width: 502px;
+  
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  
+  font-family: serif;
+  font-size: 0.875em;
+  color: #b3aca7;
+  
+  outline:none;
+  cursor: pointer;
+  
+  border: solid 1px #b3aca7;
+  border-top: none;
+}
+
+#submit:hover {
+  color: #e2dedb;
+}
+
+.info{
+    text-align: center;
+    font-size: 1.3em
+}
+
+
+/* FOOTER BARRE RS ROSE */
+
+/* couleur*/
+footer {
+  width: 60%;
+  min-height: 30px;
+  padding: 20px 20px 20px 20px;
+  background-color: pink;
+  opacity: 1;
+}
+
+/* affichage */
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 50px auto;
+  }
+
+footer {
+  width: 60%;
+  min-height: 30px;
+  padding: 20px 20px 20px 20px;
+  background-color: pink;
+  opacity: 0.7;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px; /* Ne pas afficher le texte*/
+  margin-left: 140px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: 1;
+  transition: all .25s;
+}
+
+a.linkedin {
+  background-image: url(https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg);
+}
+a.instagram {
+  background-image: url(https://cdn.worldvectorlogo.com/logos/instagram-2-1.svg);
+}
+a.wordpress {
+  background-image: url(https://cdn.worldvectorlogo.com/logos/wordpress-blue.svg);
+}
+a.gmail {
+  background-image: url(https://cdn.worldvectorlogo.com/logos/gmail-icon.svg);
+}
+
+a.social:hover {
+  opacity: 1;
+}
+.clearfix {
+  clear: both;
+}

@@ -1,0 +1,198 @@
+/* Eléments principaux de la page */
+
+body {
+   background: url('fond_nuage.jpg');
+   background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #181818;
+}
+
+
+/* Logo*/
+.photo{
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 10px #777;
+    border-radius: 50%;
+    margin: auto;
+}
+
+/*Titre*/
+header h1 {
+    font-family: serif;
+    font-size: 25px;
+    font-weight: normal;
+    margin: auto ;
+    color: pink ;
+}
+
+
+/* Barre de navigation */
+/* section h1, footer h1 */ 
+.navigation {
+    float: right;
+    margin: 30px ;
+}
+
+nav a {
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style-type: none ;
+    display: flex;
+}
+
+nav li {
+    margin-right: 16px;
+}
+
+nav a {
+    font-size: 25px;
+    color: #2a2b31; 2px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: grey;
+    border-bottom: 2px solid pink;
+}
+
+
+*{
+    margin:0;
+}
+
+.page {
+    width:800px;
+    margin:auto;
+    font-size:13px;
+    display:flex;
+    justify-content:flex-start;
+}
+
+/* PAGE GAUCHE */
+
+.pagegauche {
+    width:300px;
+    background-color:#10315990;
+    color:white;
+    padding-top:10px;
+    padding-bottom:20px;
+}
+
+.pagegauche div {
+    margin-left:20px;
+    margin-top:5px;
+}
+
+div.pagegauchephoto {
+    margin:auto;
+    text-align:center; 
+}
+
+.pagegauchephoto img {
+    width: 150px;
+}
+
+div.pagegauchenom {
+    margin:0;
+    font-size:20px;
+}
+
+div.pagegauchetitre,
+.pagegauchetitre {
+    margin-top:15px;
+    margin-bottom:10px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.page__left__presentation {
+    font-size:15px;
+    margin-right:20px;
+}
+
+
+ {
+    background-repeat:no-repeat;
+    background-size:18px;
+    padding-left:30px;
+    margin-top:5px;
+}
+
+;
+}
+
+.page__left__icon__addr {
+    background-);
+}
+
+
+.page__left__skill__progress {
+    width:250px;
+    height:5px;
+    background-color:#000;
+    border-radius:2px;
+}
+
+.page__left__skill__progress div {
+    margin:0;
+    height:5px;
+    background-color:#ffffff;
+    border-radius:2px;
+}
+
+;
+}
+
+
+/PAGE DROITE/
+
+
+.page__right {
+    width:480px;
+    color:#10315990;
+}
+
+.page__right div {
+    margin-left:20px;
+}
+
+.page__right__frame {
+    border:3px solid #;
+    margin-top:5px;
+}
+
+.page__right > .page__right__title {
+    border-bottom: 2px solid #10315990;
+   
+}
+
+.page__right__subtitle {
+    font-weight:bold;
+    margin-top:10px;
+    font-size:18px;
+}
+
+.page__right__content {
+    text-align:justify;
+    padding-right:5px;
+}
+
+.page__right__{
+    background-;
+}
+
+div.textecentre {
+    margin:auto;
+    text-align:center;
+}
+
